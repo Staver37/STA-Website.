@@ -13,15 +13,14 @@
 <meta property="og:title" content="STA Freight Solutions | Freight Brokerage">
 <meta property="og:description" content="Freight brokerage services for U.S. shippers. Request a tailored quote for dry van, reefer, flatbed or step deck freight.">
 <meta property="og:url" content="https://stafreight.com/">
-<meta property="og:image" content="https://images.unsplash.com/photo-1720127601642-7c3a7ba88f5f?auto=format&amp;fit=crop&amp;w=1440&amp;q=72">
+<meta property="og:image" content="https://stafreight.com/assets/sta-freight-hero-approved.webp">
 <meta property="og:image:alt" content="Highway freight transportation representing STA Freight Solutions">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="STA Freight Solutions | Freight Brokerage">
 <meta name="twitter:description" content="Practical U.S. freight brokerage services and shipment quotes.">
-<meta name="twitter:image" content="https://images.unsplash.com/photo-1720127601642-7c3a7ba88f5f?auto=format&amp;fit=crop&amp;w=1440&amp;q=72">
-<link rel="preconnect" href="https://images.unsplash.com" crossorigin>
-<link rel="preload" as="image" href="https://images.unsplash.com/photo-1720127601642-7c3a7ba88f5f?auto=format&amp;fit=crop&amp;w=1440&amp;q=72" media="(min-width: 701px)" fetchpriority="high">
-<link rel="preload" as="image" href="https://images.unsplash.com/photo-1720127601642-7c3a7ba88f5f?auto=format&amp;fit=crop&amp;w=850&amp;q=68" media="(max-width: 700px)" fetchpriority="high">
+<meta name="twitter:image" content="https://stafreight.com/assets/sta-freight-hero-approved.webp">
+<link rel="preload" as="image" href="/assets/sta-freight-hero-approved.webp" media="(min-width: 851px)" fetchpriority="high">
+<link rel="preload" as="image" href="/assets/sta-freight-hero-mobile.webp" media="(max-width: 850px)" fetchpriority="high">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -149,6 +148,43 @@ body.modal-open{overflow:hidden}
  *,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}
 }
 
+/* Approved STA Freight hero banner */
+.visually-hidden{position:absolute!important;clip:rect(0,0,0,0)!important;clip-path:inset(50%)!important;width:1px!important;height:1px!important;overflow:hidden!important;white-space:nowrap!important}
+.hero.hero-showcase:before{display:none}
+.hero.hero-showcase{background:linear-gradient(180deg,#edf6fd 0%,#ffffff 100%)}
+.showcase-container{width:min(1340px,calc(100% - 38px));padding:38px 0 38px}
+.showcase-desktop{display:block}
+.showcase-desktop img{display:block;width:100%;height:auto;border-radius:28px;box-shadow:0 22px 62px rgba(6,42,80,.16)}
+.showcase-mobile{display:none}
+.showcase-contact{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-top:18px;padding:22px 26px;background:#fff;border:1px solid var(--line);border-radius:20px}
+.showcase-contact-copy{display:flex;flex-direction:column;gap:4px;max-width:520px}
+.showcase-contact-copy strong{color:var(--navy);font-size:19px}
+.showcase-contact-copy span{font-size:14px;color:var(--muted)}
+.showcase-contact-actions{display:flex;gap:10px;flex-wrap:wrap}
+.showcase-contact-actions .btn{min-height:46px;padding:0 17px}
+@media(max-width:1050px){.showcase-contact{align-items:stretch;flex-direction:column}}
+@media(max-width:850px){
+ .showcase-container{width:min(100% - 24px,720px);padding:24px 0 32px}
+ .showcase-desktop{display:none}
+ .showcase-mobile{display:block;overflow:hidden;border-radius:22px;background:#06305a;color:#fff;box-shadow:0 16px 36px rgba(6,42,80,.18)}
+ .showcase-mobile-header{padding:25px 20px 20px;background:linear-gradient(145deg,#073d72,#0d65ad)}
+ .showcase-eyebrow{display:inline-block;padding:7px 12px;background:#082c4d;border-radius:999px;font-weight:850;font-size:10px;letter-spacing:.07em}
+ .showcase-small{font-size:12px;font-weight:800;letter-spacing:.1em;margin:23px 0 8px;color:#d5ecfc}
+ .showcase-mobile-header h2{font-size:clamp(32px,8vw,48px);line-height:1.09;letter-spacing:-.045em;color:#fff}
+ .showcase-mobile-header h2 span{display:block;color:#9bd8ff}
+ .showcase-mobile-truck{display:block;width:100%;height:auto}
+ .showcase-mobile-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;padding:14px 12px 16px;background:#062442}
+ .showcase-mobile-steps div{display:flex;flex-direction:column;gap:4px;padding:10px 8px;background:#163856;border-radius:10px}
+ .showcase-mobile-steps small{font-size:10px;color:#b9ddf3;letter-spacing:.05em}
+ .showcase-mobile-steps strong{font-size:12px;line-height:1.35;color:#fff}
+ .showcase-mobile-capacity{display:flex;gap:8px;flex-wrap:wrap;align-items:center;padding:13px;background:#f3f8fc;color:#082c4d}
+ .showcase-mobile-capacity strong{font-size:11px;margin-right:4px;color:#0875c6}
+ .showcase-mobile-capacity span{padding:6px 9px;border:1px solid #d1e1ef;border-radius:9px;font-size:11px;background:#fff}
+ .showcase-contact{padding:18px 15px;margin-top:14px;gap:15px}
+ .showcase-contact-actions .btn{width:100%}
+}
+@media(max-width:380px){.showcase-mobile-steps{gap:5px;padding:10px 8px}.showcase-mobile-steps div{padding:8px 5px}.showcase-mobile-steps strong{font-size:11px}}
+
 </style>
 </head>
 <body>
@@ -156,7 +192,35 @@ body.modal-open{overflow:hidden}
 <div class="topbar"><div class="container"><span><b>STA Freight Solution LLC</b> · MC 93629972</span><a href="mailto:office@stafreight.com">office@stafreight.com</a><a href="tel:+13313459440">(331) 345-9440</a></div></div>
 <header class="site-header"><div class="container nav"><a class="brand" href="#top" aria-label="STA Freight home"><img src="assets/sta-freight-logo.webp" alt="STA Freight Solutions" decoding="async" width="220" height="109" style="display:block;height:clamp(58px,6vw,72px);width:auto;object-fit:contain"></a><nav class="links" id="primaryNav" aria-label="Primary navigation"><a href="#services">Services</a><a href="#estimate">Quick Tools</a><a href="#coverage">Coverage</a><a href="#shippers">Shippers</a><a href="#carriers">Carriers</a><a href="#faq">FAQ</a><a href="#contact" class="cta">Request a Quote</a></nav><button class="menu" id="menuButton" type="button" aria-label="Open navigation" aria-controls="primaryNav" aria-expanded="false"><span></span><span></span><span></span></button></div></header>
 <main id="top">
-<section class="hero"><div class="container hero-grid"><div class="hero-copy"><div class="kicker">U.S. DOMESTIC FREIGHT BROKERAGE</div><h1>Reliable freight coordination. <span>Clear communication.</span></h1><p>Dry Van, Reefer, Flatbed and Step Deck solutions for U.S. shippers. Share your lane and freight details; our team will review the requirements and follow up with a tailored quote.</p><div class="hero-actions"><a class="btn primary" href="#contact">Request a Freight Quote</a><a class="btn secondary" href="#services">Explore Services</a></div><div class="hero-helper">Need an initial planning range? <a href="#estimate">Try the quick estimator</a></div><div class="value-row"><div><strong>Clear quote details</strong><span>Pickup, delivery, equipment and shipment requirements in one place.</span></div><div><strong>Carrier verification</strong><span>Authority and insurance checks are part of the onboarding workflow.</span></div><div><strong>Organized execution</strong><span>Coordinated appointments, updates and shipment paperwork.</span></div></div></div><div class="hero-visual"><div class="photo-card"><div class="photo-label">STA FREIGHT · FREIGHT BROKERAGE</div></div><div class="load-status"><div class="head"><b>FROM QUOTE TO DELIVERY</b><span class="live">A clear process</span></div><div class="lane">One lane. <span>Clear next steps.</span></div><div class="status-grid"><div><span>STEP 01</span><strong>Review the lane</strong></div><div><span>STEP 02</span><strong>Coordinate capacity</strong></div><div><span>STEP 03</span><strong>Follow through</strong></div></div></div><div class="capacity-card"><div class="tag">CAPACITY OPTIONS</div><h3>Match the freight to the right equipment.</h3><div class="capacity-list"><span>Dry Van</span><span>Reefer</span><span>Flatbed</span><span>Step Deck</span></div></div></div></div></section>
+<section class="hero hero-showcase" aria-labelledby="heroPageHeading">
+  <div class="container showcase-container">
+    <h1 class="visually-hidden" id="heroPageHeading">STA Freight Solutions — Reliable freight coordination and clear communication</h1>
+    <div class="showcase-desktop">
+      <img src="assets/sta-freight-hero-approved.webp" width="1440" height="811" fetchpriority="high" decoding="async" alt="STA Freight: One lane, clear next steps. White Freightliner truck and trailer on a highway; process: review the lane, coordinate capacity, follow through. Equipment: Dry Van, Reefer, Flatbed, Step Deck.">
+    </div>
+    <div class="showcase-mobile">
+      <div class="showcase-mobile-header">
+        <span class="showcase-eyebrow">STA FREIGHT · FREIGHT BROKERAGE</span>
+        <p class="showcase-small">FROM QUOTE TO DELIVERY</p>
+        <h2>One lane.<span> Clear next steps.</span></h2>
+      </div>
+      <img class="showcase-mobile-truck" src="assets/sta-freight-hero-mobile.webp" width="960" height="494" decoding="async" alt="White Freightliner semi-truck hauling a silver trailer on a highway">
+      <div class="showcase-mobile-steps" aria-label="Our three-step process">
+        <div><small>STEP 01</small><strong>Review the lane</strong></div>
+        <div><small>STEP 02</small><strong>Coordinate capacity</strong></div>
+        <div><small>STEP 03</small><strong>Follow through</strong></div>
+      </div>
+      <div class="showcase-mobile-capacity"><strong>CAPACITY OPTIONS</strong><span>Dry Van</span><span>Reefer</span><span>Flatbed</span><span>Step Deck</span></div>
+    </div>
+    <div class="showcase-contact">
+      <div class="showcase-contact-copy">
+        <strong>Freight solutions for U.S. shippers.</strong>
+        <span>Dry Van, Reefer, Flatbed and Step Deck. Send us your lane details for a tailored quote.</span>
+      </div>
+      <div class="showcase-contact-actions"><a class="btn primary" href="#contact">Request a Freight Quote</a><a class="btn secondary" href="#services">Explore Services</a></div>
+    </div>
+  </div>
+</section>
 <div class="equipment-strip"><div class="container"><span>Dry Van</span><span>Reefer</span><span>Flatbed</span><span>Step Deck</span><span>Specialized</span></div></div>
 <section class="section" id="services"><div class="container"><div class="section-title"><div class="kicker">SERVICES</div><h2>Practical freight support from quote to delivery.</h2><p>Built for shippers who need responsive communication, dependable capacity, and organized execution.</p></div><div class="service-grid"><article class="service"><div class="service-icon">DV</div><h3>Dry Van</h3><p>General freight and full truckload capacity across domestic lanes.</p></article><article class="service"><div class="service-icon">RF</div><h3>Refrigerated</h3><p>Temperature-sensitive freight with clear instructions and tracking expectations.</p></article><article class="service"><div class="service-icon">FB</div><h3>Flatbed</h3><p>Open-deck capacity for machinery, materials, building products, and project freight.</p></article><article class="service"><div class="service-icon">SD</div><h3>Step Deck</h3><p>Lower deck height for taller freight and specialized open-deck requirements.</p></article></div></div></section>
 <section class="section soft" id="estimate"><div class="container"><div class="section-title"><div class="kicker">QUICK TOOLS</div><h2>Give customers something useful in under a minute.</h2><p>Use the freight finder to identify the likely equipment type, or generate a planning-only rate range before requesting an exact quote.</p></div><div class="interactive-grid"><div class="tool-card"><h3>What are you shipping?</h3><p>Select the freight profile. The guide will point you toward the most likely service.</p><div class="choice-grid" role="group" aria-label="Select freight profile"><button class="choice" type="button" aria-pressed="false" data-rec="Dry Van" data-copy="Best for palletized, boxed, and general freight that does not require temperature control.">General freight</button><button class="choice" type="button" aria-pressed="false" data-rec="Reefer" data-copy="Best for food, produce, beverages, pharmaceuticals, and temperature-sensitive freight.">Temperature controlled</button><button class="choice" type="button" aria-pressed="false" data-rec="Flatbed" data-copy="Best for machinery, steel, lumber, construction materials, and freight loaded from the side or top.">Open-deck freight</button><button class="choice" type="button" aria-pressed="false" data-rec="Step Deck" data-copy="Best for taller open-deck freight that benefits from a lower main deck height.">Tall / oversized profile</button></div><div class="recommendation" id="recommendation" role="status" aria-live="polite"><strong id="recTitle"></strong><span id="recCopy"></span><a class="btn ghost" href="#contact" style="margin-top:14px">Build my quote request</a></div></div><div class="tool-card"><h3>Quick planning estimate</h3><p>Enter estimated trip miles and equipment. This produces a broad planning range, not a live market quote.</p><div class="field-grid"><div class="field"><label>Estimated miles<input id="miles" type="number" min="1" placeholder="e.g. 850"></label></div><div class="field"><label>Equipment<select id="equipment"><option value="dry">Dry Van</option><option value="reefer">Reefer</option><option value="flatbed">Flatbed</option><option value="stepdeck">Step Deck</option></select></label></div><div class="field"><label>Pickup timing<select id="urgency"><option value="normal">Flexible / standard</option><option value="soon">Within 48 hours</option><option value="urgent">Same / next day</option></select></label></div><div class="field"><label>Stops<select id="stops"><option value="1">1 pickup / 1 delivery</option><option value="2">1 extra stop</option><option value="3">2 extra stops</option></select></label></div></div><button class="btn primary" id="estimateBtn" type="button" style="margin-top:14px;width:100%">Calculate planning range</button><div class="estimate-result" id="estimateResult" role="status" aria-live="polite"><small>Illustrative planning range</small><strong>Enter the lane details</strong><em>Actual rates depend on lane, date, capacity, commodity, weight, appointments, accessorials, and market conditions. This tool is not a binding quote.</em></div></div></div></div></section>
